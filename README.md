@@ -17,6 +17,7 @@ pip install gradio
 
 Terás que instalar a maiores algún entorno para a execución dos notebooks.
 
+## Notebooks
 - 01_ollamaLLM_prompt-basics.ipynb: Exemplo de consulta a un modelo LLM
 - 02_langchain_chroma_basics-createdb.ipynb: Almacenamento de varias frases en base de datos vectorial e búsquedas de proximidade sobre os datos almacenados.
 - 03_langchain_chroma_basics-readdb.ipynb: Acceso a unha base de datos vectorial con búsquedas sobre os datos almacenados.
