@@ -7,6 +7,13 @@ Neste repositorio podes encontrar algúns notebooks de exemplo para coñecer com
 
 A execución dos notebooks está verficada nun Conda *environment* con Python 3.13.1. Podes reproducir este environment coas seguintes instruccións. Respecta a orde de instalación de módulos para non ter problemas de dependencias:
 
+**Nota para equipos Ubuntu**: Se vas crear un conda environment sobre unha máquina Ubuntu asegúrate de que están instaladas as ferramentas básicas de compilación antes de instalar os módulos necesarios. Executa as seguintes liñas nunha consola de Bash:
+```bash
+sudo apt update
+sudo apt install build-essential
+```
+
+**Creación de conda environment: rag**
 ```python
 conda create --name rag python=3.13.1
 conda install pip
