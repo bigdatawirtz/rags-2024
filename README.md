@@ -16,6 +16,7 @@ sudo apt install build-essential
 **Creación de conda environment: rag**
 ```python
 conda create --name rag python=3.13.1
+conda activate rag
 conda install pip
 pip install langchain langchain_ollama
 pip install chromadb sentence-transformers langchain_huggingface langchain_chroma
